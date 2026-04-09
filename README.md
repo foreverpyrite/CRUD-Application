@@ -1,15 +1,15 @@
-# CRUD Application
+# CRUD Application 🧩
 
-A simple Java Swing CRUD application built with NetBeans and MySQL.
+A simple Java Swing CRUD application recreated in Apache NetBeans and the use of XAMPP.
 
-## Features
+## Features ✨
 
-- View all users in a table
-- Create new user records
-- Update existing user records
-- Delete user records
+- 👀 View all users in a table
+- ➕ Create new user records
+- ✏️ Update existing user records
+- 🗑️ Delete user records
 
-## Tech Stack
+## Tech Stack 🛠️
 
 - Java
 - Swing UI
@@ -18,14 +18,14 @@ A simple Java Swing CRUD application built with NetBeans and MySQL.
 - NetBeans IDE
 - XAMPP
 
-## Requirements
+## Requirements 📋
 
 - Java Development Kit (JDK)
 - NetBeans IDE
 - XAMPP
 - MySQL JDBC driver
 
-## Database Setup
+## Database Setup 🗄️
 
 1. Start MySQL from XAMPP.
 2. Create a database named `java_crud_db`.
@@ -52,31 +52,31 @@ CREATE TABLE users (
 );
 ```
 
-## Configuration
+## Configuration ⚙️
 
-Update the database settings in [src/javacrudapp/DBConnection.java] if needed:
+Update the database settings in [src/javacrudapp/DBConnection.java](src/javacrudapp/DBConnection.java) if needed:
 
 - Database name: `java_crud_db`
 - Username: `root`
 - Password: empty by default for local XAMPP setup
 
-## Run the Project
+## Run the Project ▶️
 
 1. Open the project in NetBeans.
 2. Make sure the MySQL server is running.
 3. Build and run the project.
 
-The application starts from [src/javacrudapp/JavaCrudApp.java].
+The application starts from [src/javacrudapp/JavaCrudApp.java](src/javacrudapp/JavaCrudApp.java).
 
-## Acknowledgements
+## Acknowledgements 🙌
 
 - This project was recreated as a learning exercise by following the YouTube tutorial:
   **"Java CRUD GUI Application with MySQL | Full Project Tutorial using NetBeans and XAMPP" by ELA TECH.**
 
-# Learned
+## Learned 📚
 
 - Reinforced core Java concepts such as classes, objects, and method invocation
-- How to implement CRUD (Create, Read, Update, Delete) operations using JDBC (Java Database Connectivity - allows Java applications to communicate with databases)
+- How to implement CRUD (Create, Read, Update, Delete) operations using JDBC (Java Database Connectivity), which allows Java applications to communicate with databases
 - Utilization of the Data Access Object (DAO) design pattern for database interactions
 - The use of Apache NetBeans for efficient project organization (Note: the GUI builder for Swing)
 - How to configure and manage databases using XAMPP and phpMyAdmin
