@@ -3,3 +3,28 @@
 
 # Ada Library Information
 *.ali
+
+# Java build outputs
+*.class
+*.jar
+*.war
+*.ear
+
+# Ant / NetBeans generated folders
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# NetBeans local/private settings (machine-specific)
+/nbproject/private/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# OS files
+Thumbs.db
+.DS_Store
