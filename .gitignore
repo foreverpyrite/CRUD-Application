@@ -6,7 +6,6 @@
 
 # Java build outputs
 *.class
-*.jar
 *.war
 *.ear
 
