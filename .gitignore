@@ -27,3 +27,6 @@
 # OS files
 Thumbs.db
 .DS_Store
+
+# MySql container data
+/mysql_data/

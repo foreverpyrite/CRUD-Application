@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS java_crud_db;
+USE java_crud_db;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100) NOT NULL,
+    last_name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    country VARCHAR(100) NOT NULL
+);
+
