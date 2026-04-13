@@ -43,7 +43,7 @@ public class UserDAO {
      */
     public int insertUser(User user){
         try {
-            String sql = "INSERT INTO USERS (first_name, last_name, email, country) VALUES(?,?,?,?)";
+            String sql = "INSERT INTO users (first_name, last_name, email, country) VALUES(?,?,?,?)";
             PreparedStatement stmt = connection.prepareStatement(sql);
             stmt.setString(1,user.getFirstName());
             stmt.setString(2,user.getLastName());
